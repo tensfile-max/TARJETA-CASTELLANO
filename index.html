@@ -13,56 +13,68 @@ body {
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 
 /* TARJETA */
 .card {
-  width: 320px;
-  background: transparent;
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 30px 25px;
+  width: 300px;
+  padding: 35px 28px;
   color: white;
 }
 
-/* LOGO REAL */
+/* LOGO */
 .logo {
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }
 
 .logo img {
-  width: 120px;
+  width: 110px;
 }
 
 /* NOMBRE */
 .name {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 4px;
 }
 
 /* CARGO */
 .title {
-  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
   color: rgba(255,255,255,0.75);
-  margin-bottom: 25px;
+  margin-bottom: 22px;
+}
+
+/* EMAIL */
+.email {
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+.email a {
+  color: white;
+  text-decoration: none;
 }
 
 /* INFO */
 .info {
   font-size: 12px;
-  line-height: 1.6;
+  line-height: 1.65;
+  margin-bottom: 28px;
 }
 
 /* BOTÓN */
 .button {
   display: inline-block;
-  margin-top: 25px;
-  font-size: 13px;
-  padding: 10px 14px;
+  font-size: 12px;
+  padding: 10px 15px;
   background: white;
   color: #004254;
   text-decoration: none;
+  letter-spacing: 0.3px;
   font-weight: 500;
 }
 </style>
@@ -73,11 +85,15 @@ body {
 <div class="card">
 
   <div class="logo">
-    <img src="AF_INDRA_LOG_NEG.png" alt="Indra Logo">
+    AF_INDRA_LOG_NEG.png
   </div>
 
   <div class="name">Matías Amat Mateo</div>
-  <div class="title">Mechanical Design Engineer</div>
+  <div class="title">Ingeniero Diseño Mecánico TT</div>
+
+  <div class="email">
+    E tuemail@indra.es
+  </div>
 
   <div class="info">
     Av Castilla 2, Ed Japón 2<br>
@@ -87,10 +103,11 @@ body {
     M +34 699 44 14 14
   </div>
 
- <a class="button" href="matias.vcf" download>Guardar contacto</a>
+  matias.vcf
+    Guardar contacto
+  </a>
 
 </div>
 
 </body>
 </html>
-``
