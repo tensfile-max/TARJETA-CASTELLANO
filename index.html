@@ -4,108 +4,122 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Matías Amat Mateo</title>
+
 <style>
+
 body {
-  margin: 0;
-  background-color: #004254; /* Azul Amazónico */
-  font-family: 'Futura', 'Futura PT', Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100vh;
-  padding-left: 60px;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #004254;
+    font-family: Futura, "Futura PT", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-/* TARJETA */
 .card {
-  width: 300px;
-  padding: 35px 28px;
-  color: white;
+    width: 340px;
+    padding: 40px;
 }
 
-/* LOGO */
 .logo {
-  margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .logo img {
-  width: 110px;
+    width: 130px;
+    height: auto;
 }
 
-/* NOMBRE */
 .name {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
-/* CARGO */
 .title {
-  font-size: 11px;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.75);
-  margin-bottom: 22px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.85;
+    margin-bottom: 22px;
 }
 
-/* EMAIL */
 .email {
-  font-size: 13px;
-  margin-bottom: 22px;
+    font-size: 14px;
+    margin-bottom: 28px;
 }
 
 .email a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
-/* INFO */
+.email a:hover {
+    text-decoration: underline;
+}
+
 .info {
-  font-size: 12px;
-  line-height: 1.65;
-  margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 35px;
 }
 
-/* BOTÓN */
 .button {
-  display: inline-block;
-  font-size: 12px;
-  padding: 10px 15px;
-  background: white;
-  color: #004254;
-  text-decoration: none;
-  letter-spacing: 0.3px;
-  font-weight: 500;
+    display: inline-block;
+    padding: 12px 18px;
+    background: white;
+    color: #004254;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.2s;
 }
+
+.button:hover {
+    background: #f0f0f0;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <div class="card">
 
-  <div class="logo">
-    AF_INDRA_LOG_NEG.png
-  </div>
+    <div class="logo">
+        <img src="AF_INDRA_LOG_NEG.png" alt="Indra">
+    </div>
 
-  <div class="name">Matías Amat Mateo</div>
-  <div class="title">Ingeniero Diseño Mecánico TT</div>
+    <div class="name">
+        Matías Amat Mateo
+    </div>
 
-  <div class="email">
-    E tuemail@indra.es
-  </div>
+    <div class="title">
+        Ingeniero Diseño Mecánico TT
+    </div>
 
-  <div class="info">
-    Av Castilla 2, Ed Japón 2<br>
-    28830 San Fernando de Henares<br>
-    Madrid, Spain<br><br>
+    <div class="email">
+        E
+        <a href="mailto:TU_CORREO@indra.es">
+            TU_CORREO@indra.es
+        </a>
+    </div>
 
-    M +34 699 44 14 14
-  </div>
+    <div class="info">
+        Av Castilla 2, Ed Japón 2<br>
+        28830 San Fernando de Henares<br>
+        Madrid, Spain<br><br>
 
-  matias.vcf
-    Guardar contacto
-  </a>
+        M +34 699 44 14 14
+    </div>
+
+    <a class="button" href="matias.vcf" download>
+        Guardar contacto
+    </a>
 
 </div>
 
